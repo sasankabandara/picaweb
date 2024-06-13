@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+* {
+  cursor: url('../public/logos/point.png') , auto; /* Adjust the cursor size here */
+}
+/* Global styles including the custom cursor */
+body, button, a {
+  cursor: url('../public/logos/point.png'), auto;
+}
+
+/* Other global styles */
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +47,4 @@
     transform: rotate(360deg);
   }
 }
+

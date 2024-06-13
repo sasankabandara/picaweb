@@ -1,0 +1,52 @@
+.join-pirate-crew-section {
+    background-color: #161616; /* Black background for the entire section */
+    padding: 50px 0;
+  }
+  
+  .join-title {
+    font-size: 3.5rem;
+    margin: 30px 0;
+    font-family:'PHONK', sans-serif;
+  }
+  
+  .join-description {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif; 
+  }
+
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .divider-line {
+    flex: 1;
+    height: 1px;
+    background-color: #333; /* Adjust the color as needed */
+    margin: 0 10px;
+  }
+  
+  .divider-logo {
+    width: 40px; /* Adjust the size as needed */
+    height: auto;
+  }
+  
+  /* styles.css or any appropriate css file */
+.red-round-button {
+  border-radius: 50px;
+  background-color: #161616; /* Bootstrap danger color */
+  border: 1px, solid black;
+  color: white;
+  padding: 10px 20px;;
+
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.red-round-button:hover {
+  background-color: #FF0000; /* Darker shade of the danger color */
+}

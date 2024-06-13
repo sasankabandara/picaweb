@@ -1,0 +1,18 @@
+.pirate-banner {
+  background-color: #ff0000; /* Red background for the banner */
+  font-family: "PHONK", sans-serif;
+  min-height: 300px;
+}
+.banner-text {
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: justify;
+}
+.sub-text {
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -50px;
+}

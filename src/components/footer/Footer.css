@@ -1,0 +1,21 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #000000;
+    font-family: "Poppins", sans-serif; 
+  }
+  
+  .footer-logo {
+    height: 40px; /* Adjust the height as needed */
+  }
+  
+  .nav-link {
+    margin-right: 15px;
+    font-size: 16px;
+  }
+  
+  .footer-right a {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  

@@ -1,0 +1,72 @@
+.projects {
+  background-color: #000; /* Black background */
+  padding: 50px 0;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+}
+
+.projects-description {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-large {
+  margin-bottom: 20px;
+  background-color: grey; /* Placeholder background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px; /* Placeholder height */
+  border-radius: 10px;
+  position: relative;
+}
+
+.project-large img {
+  width: 100px;
+  height: auto;
+  opacity: 0.5; /* Placeholder image opacity */
+}
+
+.project-small {
+  margin-bottom: 10px;
+  background-color: grey; /* Placeholder background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 144px; /* Placeholder height */
+  border-radius: 10px;
+}
+
+.project-small img {
+  width: 50px;
+  height: auto;
+  opacity: 0.5; /* Placeholder image opacity */
+}
+
+.project-button {
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0 5px; /* Add some spacing between the buttons */
+  padding: 10px 20px; /* Adjust padding for better appearance */
+  border-radius: 30px; /* Make buttons rounded */
+  font-weight: bold; /* Make the text bold */
+  width: auto;
+}
+
+.project-button.active,
+.project-button:hover {
+  background-color: #ff0000;
+  border-color: #ff0000;
+  color: #fff;
+}

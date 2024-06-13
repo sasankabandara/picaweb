@@ -1,0 +1,17 @@
+.info-card-count {
+  font-family: "PHONK", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.info-card-text {
+  font-family: "POPPINS", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.vertical-divider {
+  border-left: 1px solid #ddd;
+  height: 2em; /* Adjust the height as needed */
+  margin: 0 10px; /* Adjust the margin as needed */
+}

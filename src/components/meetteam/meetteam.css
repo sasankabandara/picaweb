@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: "Arial, sans-serif";
+  }
+  
+  /* Header Styles */
+  header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "PHONK", sans-serif;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+
+  /* Team Section */
+  .team h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "PHONK", sans-serif;
+  }
+  
+  .team-card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+  }
+  
+  .image-placeholder {
+    background-color: lightgray;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  
+  .image-placeholder p {
+    margin: 0;
+  }
+  
+  .team-members-row {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .team-members-text {
+    margin-left: 10px; /* Adjust as needed for spacing */
+    font-size: 1.5rem; /* Adjust as needed for font size */
+    text-align: left;
+  }
+  
+  .col-6 h2 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .description {
+    font-size: 1rem;
+    margin-left: -340px;
+  }
+  
+  @media (max-width: 767px) {
+    .description {
+      margin-left: auto;
+      text-align: center;
+    }
+  }
+  
+  .team-head {
+    font-family: "PHONK", sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+  }
+  
+
+  
+  .info-card-text {
+    font-family: "POPPINS", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .teamdes{
+    font-family: "Poppins", sans-serif; 
+  }
+  

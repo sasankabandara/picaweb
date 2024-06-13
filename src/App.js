@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import "./App.css";
+import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/navbar/navbar";
+import Banner from "./components/banner/banner";
+import ScrollingLabel from "./components/animate/animbanner";
+import Service from "./components/services/service";
+import JoinPirateCrew from "./components/join/JoinPirateCrew";
+import PirateBanner from "./components/pirateBanner/PirateBanner";
+import Footer from "./components/footer/Footer";
+import Crew from "./pages/crew";
+import Projects from "./pages/Projects";
+import "./assets/fonts/fonts.css";
+import Stats from './components/stat/stat';
+import Meetteam from './components/meetteam/meetteam';
+
+
+const Home = () => (
+  <>
+    <Banner />
+    <ScrollingLabel />
+    <Stats/>
+    <Service />
+    <Meetteam/>
+    <PirateBanner />
+    <JoinPirateCrew />
+  </>
+);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/crew" element={<Crew />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

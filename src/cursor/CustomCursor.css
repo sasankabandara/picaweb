@@ -1,0 +1,29 @@
+/* src/components/CustomCursor.css */
+
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40px; /* Adjust size if necessary */
+    height: 40px; /* Adjust size if necessary */
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .custom-cursor::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px; /* Adjust size if necessary */
+    height: 40px; /* Adjust size if necessary */
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" stroke="black" stroke-width="2"/><path d="M15.5 8.5L8.5 15.5" stroke="black" stroke-width="2" stroke-linecap="round"/><path d="M8.5 9.5H15.5V16.5" stroke="black" stroke-width="2" stroke-linecap="round"/></svg>') no-repeat center center;
+    background-size: contain;
+    transform: translate(-50%, -50%);
+    background-color: white;
+  }
+
+
+  
