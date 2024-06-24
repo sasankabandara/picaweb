@@ -1,40 +1,35 @@
+
+
 .member-card {
   border-radius: 10px;
-  height: 200px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: #161616; /* Background color for the text area */
+  padding: 10px;
+ 
 }
 
 .member-photo {
-  width: 100px;
-  height: 100px;
-  background-color: #444;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.mx-2 {
+  width: 100%;
+  padding-bottom: 100%; /* Aspect ratio 1:1 */
+  background-size: cover;
+  background-position: center;
   border-radius: 50px;
-  background-color: #161616; /* Bootstrap danger color */
-  border: none;
-  color: white;
-  padding: 10px 20px;
-
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+ 
 }
 
-.mx-2:hover {
-  background-color: #ff0000; /* Darker shade of the danger color */
-}
 .crew-container {
   background-color: #161616;
-  color: #ffff;
+  color: #fff;
 
-}.phal{
-font-family: 'Poppins', sans-serif;
 }
+
+.phal {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Apply custom cursor to all elements */

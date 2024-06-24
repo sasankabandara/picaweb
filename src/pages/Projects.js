@@ -69,7 +69,7 @@ const Projects = () => {
           <Col md={8} className="text-start">
             <Row className="justify-content-start">
               <Col className="projects-title text-white">
-                <h1 style={{ fontFamily: "PHONK",fontSize:"96px" }}>Our Projects</h1>
+                <h1 style={{ fontFamily: "PHONK",fontSize:"90px" }}>Our Projects</h1>
               </Col>
             </Row>
             <Row className="my-4">
